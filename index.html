@@ -1,0 +1,63 @@
+<!DOCTYPE>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Quote Generator</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </head>
+
+  <body>
+
+    <div class="center-align">
+      <h2 class="header">Quote!</h2>
+      <div class="row" id="myCard">
+
+        <div class="col s4 offset-s4">
+          
+          <div class="card horizontal #d7ccc8 brown lighten-4">
+
+            <div class="card-stacked">
+              <div class="card-content">
+
+                <p class="quote flow-text">Bond. James Bond!</p>
+                <p class="author right-align"><i class="tiny material-icons">mode_edit</i> James Bond</p>
+
+              </div>
+              <div class="card-action">
+                <div >
+                  <!--<span class="twitterBtn"></span>-->
+                  <a id="myHref" target="_blank" href="https://twitter.com/share?text=Bond. James Bond! - James Bond" class="twitter-share-button" text="hello">
+                    <img src="https://twitter.com/favicons/favicon.ico" height="11" width="15"/>
+                    tweet
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    
+    <div class="center-align">
+      <a class="waves-effect waves-light btn-large" id="btn">Hit Me!</a>
+    </div>
+  </body>
+
+  <script src="js/config.js"></script>
+  <script src="js/script.js"></script>
+
+</html>

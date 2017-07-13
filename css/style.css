@@ -1,0 +1,27 @@
+body{
+  background-image: url("../images/Free-HD-Great-Backgrounds.jpg");
+  background-repeat: no-repeat;
+}
+
+/*
+.twitterBtn {
+  position: absolute;
+  width: 16px;
+  height: 13px;
+  top: 50%;
+  left: 190px;
+  margin-top: -6px;
+  background: url('https://twitter.com/favicons/favicon.ico') 3px center no-repeat;
+  background-size: 13px; 
+}
+*/
+
+#myHref {
+  color: white; 
+  text-transform: none;
+  margin-right: -20px;
+}
+
+.author {
+  font-size: 1.35em;
+}
